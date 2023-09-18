@@ -5,6 +5,6 @@ This is the server component for the my CodeBy Realtime CodeEditor project. It p
 ## Features
 
 -   Create and manage code editing rooms.
--   Real-time code collaboration using WebSockets.
+-   Real-time code collaboration using SocketIO.
 -   Store and retrieve code contents in a Redis database.
--   Error handling and logging using Morgan.
+-   Support multiple users and concurrent rooms for collaborative coding sessions.
