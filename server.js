@@ -3,7 +3,7 @@ const http = require("http");
 const cors = require("cors");
 const { Server } = require("socket.io");
 
-const socketEvents = require("../src/socketEvents");
+const socketEvents = require("./socketEvents");
 const redisClient = require("./redisClient");
 const routes = require("./routes.js");
 
