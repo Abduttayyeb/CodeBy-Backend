@@ -36,7 +36,7 @@ io.on("connection", (socket) => {
     console.log("\n--New Socket Connected--", socket.id);
 
     // TODO : 1) TO PERSIST CONNECTIONS ON PAGE REFRESH
-    //        2) TO SAVE THE CODE STATE FOR ROOM [-].
+    //        2) TO SAVE THE CODE STATE FOR ROOM [DONE].
 
     socket.on(socketEvents.JOIN, ({ currentUsername, roomId }) => {
         console.log("\tUser Joined ", { currentUsername, roomId });
