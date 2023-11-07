@@ -14,11 +14,13 @@ const userSocketMap = {};
 
 const PORT = process.env.PORT || 5000;
 
-app.use(
-    cors({
-        origin: [process.env.REACT_APP_FRONTED_URL],
-    })
-);
+// app.use(
+//     cors({
+//         origin: [process.env.REACT_APP_FRONTED_URL],
+//     })
+// );
+
+app.use(cors())
 
 app.use(express.json());
 app.use("/", routes);
