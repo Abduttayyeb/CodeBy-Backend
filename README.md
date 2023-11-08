@@ -3,7 +3,7 @@
 Welcome to the server component for the CodeBy Realtime CodeEditor project. This server provides essential backend support for creating and managing code editing rooms with real-time collaboration features.
 
 ## Deployed Version
-![screenshot](./docs/screenshot.png)
+[![screenshot](./docs/screenshot.png)](https://codeby-prod-frontend.onrender.com/)
 
 You can access a deployed version of the CodeBy Realtime CodeEditor on Render.
 
